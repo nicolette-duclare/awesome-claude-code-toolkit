@@ -76,6 +76,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 
 | Plugin | Description |
 |--------|-------------|
+| [agento-patronum](https://github.com/emaarco/agento-patronum) | Protects sensitive files, credentials, and shell commands from unintended AI access via Claude Code hooks. Unlike settings.json deny rules, hooks are an enforcement layer you own and can verify. Ships with defaults for .env files, SSH keys, AWS credentials, and kubeconfig. |
 | [skills-janitor](https://github.com/khendzel/skills-janitor) | Audit, deduplicate, check, fix, and track usage of your Claude Code skills. 9 slash commands, zero dependencies |
 | [aws-cost-saver](https://github.com/prajapatimehul/aws-cost-saver) | AWS cost optimization scanner with 173 automated checks, ML-powered rightsizing, and Zero Hallucination Pricing - Real result: 60% cost reduction |
 | [claude-agentic-coding-playbook](https://github.com/john-wilmes/claude-agentic-coding-playbook) | Evidence-based practices for LLM-assisted development -- hooks, skills, scripts, and a best-practices guide with 58 citations. Includes 19+ guard/lifecycle hooks, investigation workflow, fleet indexing, and claude-loop for autonomous task queues. |
