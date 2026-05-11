@@ -158,7 +158,6 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [data-privacy](plugins/data-privacy/) | Data privacy implementation with PII detection and anonymization |
 | [database-optimizer](plugins/database-optimizer/) | Database query optimization with index recommendations and EXPLAIN analysis |
 | [dead-code-finder](plugins/dead-code-finder/) | Find and remove dead code across the codebase |
-| [debian-packaging-agent-skill](https://github.com/cosgroveb/debian-packaging-agent-skill) | Debian packaging skill covering debhelper, debian/rules, package metadata, lintian, and multi-binary packages for Ruby (gem2deb), Python (pybuild), Rust (debcargo), and Go (dh-golang). Loads language-specific reference docs on demand. Apache 2.0 |
 | [debug-session](plugins/debug-session/) | Interactive debugging workflow with git bisect integration |
 | [dig2crawl](https://github.com/ZENG3LD/dig2crawl) | Universal web crawler with Claude-powered CSS selector discovery. 4-level AI extraction escalation (CSS, browser actions, Claude Vision, captcha). Rust. |
 | [dependency-manager](plugins/dependency-manager/) | Audit, update, and manage project dependencies with safety checks |
@@ -301,6 +300,7 @@ Over 176 production-ready plugins that extend Claude Code with domain-specific c
 | [US Business Data MCP](https://github.com/avabuildsdata/mcp-us-business-data) | MCP server for US business data — search entities across 17 state Secretary of State databases, YellowPages leads, building permits from 47 cities, 20+ federal APIs (SEC, FDA, FEMA). Built in Go, on MCP Registry |
 | [craft-statusline](https://github.com/derjochenmeyer/claude-code-craft-statusline) | Bash statusline plugin for Claude Code with state-aware git branch (ahead / behind / stashed / conflict / combined signals), context window with absolute-token traffic light (yellow at 400k tokens, red at 85%), 5h/7d rate limits, and optional cost. Bash 3.2 compatible, jq is the only dependency. Install: `/plugin marketplace add derjochenmeyer/claude-code-craft-statusline` |
 | [mobile-spine](https://github.com/bentleypark/claude-code-mobile-spine) | Scaffold for mobile teams whose Android, iOS, and Backend live in separate repos. Coordinates 4 specialized subagents (api / pm / android / ios) with hard repo boundaries via `settings.json` deny rules. `/mobile-spine:init` runs a 6-question interview and writes the full workspace; `/feat` drives a 4-question interview → 4-case classification (existing endpoint / new endpoint / new domain / backend not built). 4-class codebase inventory contract surfaced in every PR (`Inventory: reuse X / extend Y / new Z / remove W`). MIT. |
+| [debian-packaging-agent-skill](https://github.com/cosgroveb/debian-packaging-agent-skill) | Debian packaging skill covering debhelper, debian/rules, package metadata, lintian, and multi-binary packages for Ruby (gem2deb), Python (pybuild), Rust (debcargo), and Go (dh-golang). Loads language-specific reference docs on demand. Apache 2.0 |
 
 ### Installing a Plugin
 
