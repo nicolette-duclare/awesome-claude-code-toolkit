@@ -1098,7 +1098,6 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [claude-starter-kit](https://github.com/awrshift/claude-starter-kit) | new | Ready-to-use project structure with persistent memory, session continuity, hooks, and 3 bundled skills (Gemini, Brainstorm, Design) |
 | [claude-code-kickstart](https://github.com/ypollak2/claude-code-kickstart) | New | Opinionated starter kit — one command to install curated MCP servers, hooks, agents, and profiles. Includes auto-detect, 12 agents, 10 profiles, and 20+ shell commands |
 | [claude-code-power-stack](https://github.com/bluzername/claude-code-power-stack) | new | Ghost memory, conversation search, session naming, and Manus-style planning in a single install with cheat sheet PDF |
-| [systemprompt-template](https://github.com/systempromptio/systemprompt-template) | -- | Governance infrastructure for Claude Code. Single compiled Rust binary that authenticates, authorises, rate-limits, logs, and attributes costs for every AI interaction before it reaches a tool or database. Self-hosted, air-gap capable, MCP + A2A compatible. BSL-1.1 |
 | [clooks](https://github.com/mauribadnights/clooks) | new | Persistent hook daemon that replaces per-invocation spawning -- 112x faster hooks with batching, dependency resolution, metrics |
 | [AIRIS MCP Gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | new | Docker-based MCP multiplexer that aggregates 60+ tools behind 7 meta-tools, reducing context token usage by 97%. One command to start, auto-enables servers on demand |
 | [Claude Code AWS Gateway](https://github.com/antkawam/claude-code-aws-gateway) | new | Self-hosted API gateway that routes Claude Code through Amazon Bedrock with team API keys, budgets, rate limits, OIDC SSO, SCIM provisioning, and an admin portal for analytics |
@@ -1157,6 +1156,7 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [Bring Your AI](https://bringyour.ai/claude-code-to-codex) | -- | Local-first Claude Code to Codex migration path. Keeps harness files local, maps CLAUDE.md/AGENTS.md guidance and MCP config, and adds a Codex import checklist for hooks, secret refs, and non-equivalent behavior before Codex edits code. |
 | [Drevon](https://drevon.dev) | new | Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel. |
 | [voidly-mcp-server](https://github.com/voidly-ai/mcp-server) | new | 116 tools for Claude Code covering censorship intelligence (19.6M OONI measurements, 126 countries), E2E encrypted agent-to-agent messaging, and agent payments. Install: `claude mcp add voidly -- npx -y @voidly/mcp-server` |
+| [systemprompt-template](https://github.com/systempromptio/systemprompt-template) | -- | Governance infrastructure for Claude Code. Single compiled Rust binary that authenticates, authorises, rate-limits, logs, and attributes costs for every AI interaction before it reaches a tool or database. Self-hosted, air-gap capable, MCP + A2A compatible. BSL-1.1 |
 
 ---
 
