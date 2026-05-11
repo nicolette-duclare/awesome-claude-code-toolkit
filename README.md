@@ -1133,6 +1133,7 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [agenttrace](https://github.com/luoyuctl/agenttrace) | new | TUI observability for Claude Code, Codex CLI, Gemini CLI, Aider, Cursor exports, and more. Tracks cost, tokens, tool failures, latency, anomalies, health, diffs, and CI gates from local session logs |
 | [agent-shadow-brain](https://github.com/theihtisham/agent-shadow-brain) | 8+ | AI-powered background code analysis agent for Claude Code that continuously monitors your codebase and provides intelligent suggestions. npm: `@theihtisham/agent-shadow-brain` |
 | [omni-skills-forge](https://github.com/theihtisham/omni-skills-forge) | 11+ | Universal skill and slash-command manager for AI coding assistants. Create, share, and manage reusable skills across tools. npm: `omni-skills-forge` |
+| [cc-tempo](https://github.com/O0000-code/cc-tempo) | New | Claude Code statusline with wall-clock active work time, SubAgent speedup ratio, /clear-resilient PID timer, code-churn sparkline with trend arrow, and multi-instance detection. Bash + TypeScript, MIT. |
 
 ---
 
